@@ -1,7 +1,7 @@
 import React from 'react';
 import countries from '../countries.json';
 import { Link } from 'react-router-dom';
-import CountryDetails from './CountryDetails';
+
 
 const Countries = () => {
   return (
@@ -25,9 +25,7 @@ const Countries = () => {
             })}
           </div>
         </div>
-        <div class="col-7">
-          <CountryDetails />
-        </div>
+   
       </div>
     </div>
   );
